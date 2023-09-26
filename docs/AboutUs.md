@@ -7,56 +7,55 @@
 
 We are a team based in the [School of Computing, National University of Singapore](http://www.comp.nus.edu.sg).
 
-You can reach us at the email `e0958417[at]u.nus.edu`
+You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### Chen Jin Yang
+### John Doe
 
-<img src="images/jinyang.png" width="200px">
+<img src="images/johndoe.png" width="200px">
 
 [[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/jinyang628)]
-[[portfolio](team/jinyang.md)]
+[[github](https://github.com/johndoe)]
+[[portfolio](team/johndoe.md)]
 
 * Role: Project Advisor
 
-### Javin Chua
+### Jane Doe
 
-<img src="images/javin.png" width="200px">
+<img src="images/johndoe.png" width="200px">
 
-[[github](http://github.com/javinchua)]
-[[portfolio](team/javin.md)]
+[[github](http://github.com/johndoe)]
+[[portfolio](team/johndoe.md)]
 
 * Role: Team Lead
 * Responsibilities: UI
 
-### Lee Yong Ning
+### Johnny Doe
 
-<img src="images/yongning.png" width="200px">
+<img src="images/johndoe.png" width="200px">
 
-[[github](http://github.com/yongning0310)] 
-[[portfolio](team/yongning.md)]
+[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
 
 * Role: Developer
 * Responsibilities: Data
 
-### Kyriel Mortel Abad
+### Jean Doe
 
-<img src="images/kyriel.png" width="200px">
+<img src="images/johndoe.png" width="200px">
 
-[[github](http://github.com/s-kybound)]
-[[portfolio](team/kyriel.md)]
+[[github](http://github.com/johndoe)]
+[[portfolio](team/johndoe.md)]
 
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### Shashamin Chokjaroenwathanakul 
+### James Doe
 
-<img src="images/shashamin.png" width="200px">
+<img src="images/johndoe.png" width="200px">
 
-[[github](http://github.com/shashahchk)]
-[[portfolio](team/shashamin.md)]
+[[github](http://github.com/johndoe)]
+[[portfolio](team/johndoe.md)]
 
 * Role: Developer
 * Responsibilities: UI

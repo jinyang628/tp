@@ -15,7 +15,7 @@ You can reach us at the email `e0958417[at]u.nus.edu`
 
 <img src="images/jinyang.png" width="200px">
 
-[[homepage](https://www.linkedin.com/in/chen-jin-yang-37baa8202/)]
+[[homepage](http://www.comp.nus.edu.sg/~damithch)]
 [[github](https://github.com/jinyang628)]
 [[portfolio](team/jinyang.md)]
 

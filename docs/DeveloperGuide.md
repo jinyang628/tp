@@ -117,28 +117,28 @@ How the parsing works:
 * All `XYZCommandParser` classes (e.g., `CreateCommandParser`, `DeleteCommandParser`, ...) inherit from the `Parser` interface so that they can be treated similarly where possible e.g, during testing.
 
 ### Model component
-**API** : [`Model.java`](https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/model/Model.java)
+**API** : [`InternshipModel.java`](https://github.com/AY2324S1-CS2103T-W17-1/tp/blob/master/src/main/java/seedu/address/model/InternshipModel.java)
 
 <puml src="diagrams/ModelClassDiagram.puml" width="450" />
 
 
-The `InternshipModel` component,
+The `Model` component,
 
 * stores the address book data i.e., all `Internship` objects (which are contained in a `UniqueInternshipList` object).
 * stores the currently 'selected' `Internship` objects (e.g., results of a search query) as a separate _filtered_ list which is exposed to outsiders as an unmodifiable `ObservableList<Internship>` that can be 'observed' e.g. the UI can be bound to this list so that the UI automatically updates when the data in the list change.
 * stores a `UserPref` object that represents the user’s preferences. This is exposed to the outside as a `ReadOnlyUserPref` objects.
-* does not depend on any of the other three components (as the `InternshipModel` represents data entities of the domain, they should make sense on their own without depending on other components)
+* does not depend on any of the other three components (as the `Model` represents data entities of the domain, they should make sense on their own without depending on other components)
 
-### InternshipStorage component
+### Storage component
 
 **API** : [`InternshipStorage.java`](https://github.com/AY2324S1-CS2103T-W17-1/tp/blob/master/src/main/java/seedu/address/storage/InternshipStorage.java)
 
 <puml src="diagrams/StorageClassDiagram.puml" width="550" />
 
-The `InternshipStorage` component,
+The `Storage` component,
 * can save both Flagship data and user preference data in JSON format, and read them back into corresponding objects.
 * inherits from both `InternshipBookStorage` and `InternshipUserPrefsStorage`, which means it can be treated as either one (if only the functionality of only one is needed).
-* depends on some classes in the `InternshipModel` component (because the `InternshipStorage` component's job is to save/retrieve objects that belong to the `InternshipModel`)
+* depends on some classes in the `Model` component (because the `Storage` component's job is to save/retrieve objects that belong to the `Model`)
 
 ### Common classes
 

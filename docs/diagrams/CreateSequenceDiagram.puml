@@ -1,12 +1,13 @@
 @startuml
 !include style.puml
+skinparam DefaultFontSize 30
 skinparam ArrowFontStyle plain
 
 box Logic LOGIC_COLOR_T1
 participant ":InternshipLogicManager" as InternshipLogicManager LOGIC_COLOR
 participant ":InternshipBookParser" as InternshipBookParser LOGIC_COLOR
 participant ":CreateCommandParser" as CreateCommandParser LOGIC_COLOR
-participant "d:CreateCommand" as CreateCommand LOGIC_COLOR
+participant "c:CreateCommand" as CreateCommand LOGIC_COLOR
 participant ":CommandResult" as CommandResult LOGIC_COLOR
 end box
 
